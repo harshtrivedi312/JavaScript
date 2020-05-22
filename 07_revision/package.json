@@ -1,0 +1,17 @@
+{
+  "name": "07_revision",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "forever": "jest --watchAll",
+    "dev": "nodemon node revision01.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^25.5.1"
+  }
+}

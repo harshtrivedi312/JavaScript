@@ -1,0 +1,49 @@
+body {
+    background: rgb(132, 136, 126);
+    position: relative;
+}
+
+.wrapper {
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    display: flex;
+    align-items: center;
+}
+
+#status {
+    position: absolute;
+    top: 10rem;
+		left: 50%;
+		transform: translateX(-60%);
+    min-width: 400px;
+    text-align: center;
+}
+
+.dice {
+    width: 32px;
+    float: left;
+    background-color: red;
+    border: 1px solid black;
+    padding: 50px;
+    font-size: 24px;
+    text-align: center;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.dice-roll {
+    cursor: pointer;
+    text-transform: capitalize;
+}
+.dice-roll{
+    background:darkgray;
+    padding: 20px;
+    border: thin;
+    border-radius: 25px;
+}
+

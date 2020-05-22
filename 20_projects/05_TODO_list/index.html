@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDOAPP</title>
+    <link rel="stylesheet" href="https://bootswatch.com/4/sketchy/bootstrap.min.css"></link>
+    <link rel="stylesheet" href="https://kit.fontawesome.com/7e52c4363d.js" crossorigin="anonymous"></link>
+</head>
+
+<body>
+    <div class="card text-white bg-primary">
+    <div class="container jumbotron">
+        <div class="heading">
+            <h1 class="heading1">
+                <i class="heading2"></i> My <span class="heading3">ToDo </span>List
+            </h1>
+            <hr>
+        </div>
+        <p>
+            <label for="new-task"><h5>Add Tasks</h5></label>
+            <input id="new-task" type="text" placeholder="Add Your Task Here">
+            <button type="button" class="btn btn-success"> ADD Tasks </button>
+            <input id="date-set" type="date">
+            <button class="btn btn-info"> Set Date </button>
+        </p>
+        <hr>
+        <h3>Task To Do</h3>
+        <ul id="incomplete-tasks">
+            <li>
+                <button class="edit btn btn-outline-warning">Edit</button>
+                <button class="Completed btn btn-outline-info" >Completed</button>
+                <button class="delete btn btn-outline-danger">Delete </button>
+            </li>
+
+        </ul>
+        <hr>
+        <h3>Task Completed</h3>
+        <ul id="completed-tasks">
+            <li>
+                <button class="delete btn btn-outline-danger">Delete</button>
+            </li>
+        </ul>
+    </div>
+</div>
+
+    <!--<script src="./script.js"></script>-->
+
+
+</body>
+
+</html>

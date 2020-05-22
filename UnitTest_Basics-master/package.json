@@ -1,0 +1,20 @@
+{
+	"name": "unittest_withjest",
+	"version": "1.0.0",
+	"description": "Unit Test With Jest",
+	"main": "index.js",
+	"scripts": {
+		"test": "jest",
+		"live": "jest  --watchAll"
+	},
+	"author": "Milan Patel",
+	"license": "MIT",
+	"dependencies": {
+		"eslint": "^6.8.0",
+		"eslint-plugin-import": "^2.20.1",
+		"jest": "^25.1.0",
+		"jest-html-reporter": "^2.8.0",
+		"prettier": "^1.19.1",
+		"pretty-quick": "^2.0.1"
+	}
+}
